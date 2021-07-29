@@ -16,3 +16,16 @@ isJohnEqual = (ageJohn == ageMark);
 // Ausgabe
 console.log("isJohnOlder: " + isJohnOlder);
 console.log("isJohnEqual: " + isJohnEqual);
+
+
+/******** IF ********/
+// TINA --> There is no alternative!
+//entweeder JA oder nix ... alternativlos
+
+// if (condition)
+// if (true)
+// if (false)
+if(isJohnOlder)
+{
+    console.log("John ist älter");
+}
