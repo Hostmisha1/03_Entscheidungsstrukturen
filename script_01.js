@@ -25,7 +25,7 @@ console.log("isJohnEqual: " + isJohnEqual);
 // if (condition)
 // if (true)
 // if (false)
-if(isJohnOlder)
+if(isJohnOlder) //(ageJohn > ageMark) geht auch
 {
     console.log("John ist älter");
 }
