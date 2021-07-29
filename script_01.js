@@ -48,20 +48,27 @@ job ="diver";  // ... taucht im Rhein!
 job ="artist"; // ... malt ein Bild!
 job ="pilot";  // ... fliegt ein Flugzeug!
 
+job ="teachter"; // ... unterrichtet!
+job ="instructor"; // .. unterrichtet!
+
 switch (job)
 {
-    case "driver":
+    case "driver": //1. Fall (case)
 console.log(firstName + " fährt Taxi!");
     break;
-    case "diver":
+    case "diver": //2. Fall (case)
 console.log(firstName + " taucht im Rhein!");
     break;
-    case "artist":
+    case "artist": //3. Fall (case)
 console.log(firstName + " malt ein Bild!");
      break;
+     case "teacher": //4. Fall (case)
+     case "instructor": //4a. Fall (case)
+     console.log(firstName + " unterrichtet!");
+    break;
 
-// für alle nicht bezeichneten Fälle ...
-    default:
+
+    default: //// für alle nicht bezeichneten Fälle ...
     console.log(firstName + " macht etwas anderes!");
     break;
 }
