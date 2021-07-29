@@ -45,10 +45,10 @@ let firstName = "Jane";
 let job;
 job ="driver"; // ... fährt Taxi
 
-switch (key)
+switch (job)
 {
-    case value:
-
+    case "driver":
+console.log(firstName + " fährt Taxi!");
     break;
 
     default:
