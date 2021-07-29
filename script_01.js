@@ -43,14 +43,25 @@
 
 let firstName = "Jane";
 let job;
-job ="driver"; // ... fährt Taxi
+job ="driver"; // ... fährt Taxi!
+job ="diver";  // ... taucht im Rhein!
+job ="artist"; // ... malt ein Bild!
+job ="pilot";  // ... fliegt ein Flugzeug!
 
 switch (job)
 {
     case "driver":
 console.log(firstName + " fährt Taxi!");
     break;
+    case "diver":
+console.log(firstName + " taucht im Rhein!");
+    break;
+    case "artist":
+console.log(firstName + " malt ein Bild!");
+     break;
 
+// für alle nicht bezeichneten Fälle ...
     default:
-        break;
+    console.log(firstName + " macht etwas anderes!");
+    break;
 }
